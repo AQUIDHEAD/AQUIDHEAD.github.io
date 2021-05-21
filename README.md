@@ -1,1 +1,1 @@
-To acces the website go [here](https://aquidhead.github.io/website/)
+To access the website go [here](https://aquidhead.github.io/website/)
