@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>bootles of [not school apropiate drink]</title>
+<style>
+footer {
+    text-align: center;
+}
+</style>
+<script>
+
+var counting = 0;
+
+while (counting<1000) {
+    counting++;
+
+    if (counting == 1) {
+        alert("Hello, if you click through all the alerts you will get a prize you are on alert " + counting + ", good luck");
+    }else if (counting == 1000){
+        alert("Hi again, you misss me? I just wanted to tell you that here is a prize for making it here. You got dedication if you actually sat through it all.");
+    }else if (counting == 10){
+        alert("How is your day?");
+    }else if (counting == 11){
+        alert("Hope you had a good day");
+    }else if (counting == 12){
+        alert("You should grab a snack because you will be here a while");
+    }else if (counting == 13){
+        alert("Well, ill leave you to it. Got stuff to do, ill see you around in another page maybe. Good luck!!");
+    }else {
+        alert("This is alert number " + counting);
+    }
+
+}
+
+function thePrize() {
+    var x = document.createElement("IMG");
+    x.setAttribute("src", "../media/Consolation_prize.jpg");
+    x.setAttribute("alt", "Consolation Prize");
+    document.body.appendChild(x);
+}
+</script>
+</head>
+<body>
+
+<button onclick="thePrize()">Your prize</button>
+<p>(its big)</p>
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>

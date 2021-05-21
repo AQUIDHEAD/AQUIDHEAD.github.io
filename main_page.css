@@ -1,0 +1,29 @@
+body {
+   margin: 30px;
+   padding: 30px;
+   background-color: #ffffff;
+   border: 3px solid #000000;
+}
+h1 {
+  text-align: center;
+  color: #000000;
+}
+h2 {
+  color: #000000;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  background-color:#002fff;
+  color:#ffffff;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color:#0300cc;
+  padding: 5px;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Orange!!</title>
+</head>
+<body>
+<style>
+    /* STYLE SHEET FOR INDEX.HTM */
+
+
+@font-face {
+  font-family: oregonfont;
+  src: url("../media/oregon book.ttf");
+}
+
+@keyframes logoanimation {
+  0% {left: 0px; top: 0px;}
+  50% {left: 200px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+
+article {	
+  padding: 10px;
+}
+
+body {
+  font-family: oregonfont;
+  font-size: 85%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ff5b0e;
+}
+
+footer {
+  font-size: 80%;
+  text-align: center;
+  clear: both;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #ff8147;
+  margin-top: 0;
+  padding: 0;
+}
+
+h1 {
+  text-shadow: 3px 3px 3px #ff7c40;
+  margin-top: 5px; 
+  margin-bottom: 0px; 
+}
+
+header {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #000000;
+}
+
+nav {
+  background: #ff5100; 
+  font-weight: bold;
+  float: left;
+  height: 420px;
+  padding-right: 24px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+section {
+  background-image: url("../media/globe.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.becomesmall {
+    height: 100px;
+    width: 125px;
+}
+
+.floatright {
+  float: right;
+  clear: right;
+  margin: 10px;
+}
+
+.navlinks {
+  display: block;
+  border: 2px solid #ff6600;
+  padding: 2px 5px; 
+  background: #e6cfad;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #c4ad7d;
+}
+
+.sub-menu {
+  display: none;
+  width: 150px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  -moz-box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  box-shadow: 5px 5px 5px #ffc115;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+}
+
+.sub-menu li {
+  list-style-type: none;
+  display: block;
+  border: 2px solid #e6bc32;
+  padding: 2px 5px;
+  background: #ffa600;
+  border-radius: 5px;
+}
+
+.sub-menu li:hover {
+  border: 3px solid #ff8800;
+}
+
+#animation {
+  position: relative;
+
+  animation-name: logoanimation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+
+
+#drop-menu {
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  border: 2px solid #a1a1a1;
+  padding: 5px;
+  height: 20px;
+  max-height: 20px;
+  background: #ff8800;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888888;
+  font-family: oregonfont;
+  font-weight: bold;
+  font-size: 85%;
+  color: #000000;
+}
+
+#drop-menu:hover {
+  border: 3px solid #bababa;
+}
+
+#drop-menu:hover .sub-menu {
+  display: inline-block;
+}
+
+#img-rotate {
+  z-index: -1;
+  position: relative;
+  transform: rotate(345deg);
+}
+
+#logo-rotate {
+  transform: rotateY(180deg);
+} 
+
+#video-rotate {
+  transform: rotate(15deg);
+}
+</style>
+<header>
+<img class="becomesmall" id="animation" src="media/orange_fruit.png" alt="An Orange" />
+
+<div class="floatright" id="drop-menu">
+Search Orange in
+<ul class="sub-menu">
+<li><a href="https://www.bing.com/search?q=orange&form=QBLH&sp=-1&pq=orange&sc=8-6&qs=n&sk=&cvid=659CDAD3FB87464A92F5C626F07BE7E8">Bing</a></li>
+<li><a href="https://www.google.com/search?safe=strict&sxsrf=ALeKk021TR6W_wDOWamVn3g6dI40ubMknA%3A1615468171096&source=hp&ei=ixZKYKK7Au2s5NoPm6OSiAk&iflsig=AINFCbYAAAAAYEokm5bx2cnU1vXrGy0-0ZvqoK3Pp1q1&q=orange&oq=orange&gs_lcp=Cgdnd3Mtd2l6EAMyCgguELEDEEMQkwIyDQguELEDEMcBEKMCEEMyAgguMgQILhBDMgQILhBDMgUILhCxAzIFCAAQsQMyCAgAELEDEIMBMgUILhCxAzIICC4QsQMQgwE6BAgjECc6CwgAELEDEIMBEJECOgUIABCRAjoLCC4QsQMQxwEQowI6BwgAELEDEEM6BAgAEEM6CAguEMcBEKMCOhAILhCxAxDHARCjAhBDEJMCOgcILhCxAxBDOgIIADoFCAAQyQNQsQ9YqiFg8yVoAHAAeACAAVWIAZADkgEBNpgBAKABAaoBB2d3cy13aXo&sclient=gws-wiz&ved=0ahUKEwjirOzzp6jvAhVtFlkFHZuRBJEQ4dUDCAk&uact=5"> Google</a></li>
+<li><a href="https://search.yahoo.com/search?p=orange&fr=yfp-t&ei=UTF-8&fp=1">Yahoo!</a></li>
+</ul>
+</div>
+    
+</header>
+
+<nav>
+<p><a class="navlinks" href="https://en.wikipedia.org/wiki/Orange">Learn more</a></p>
+<p><a class="navlinks" href="https://www.pexels.com/search/orange/">Orange Pictures</a></p>
+<p><a class="navlinks" href="https://www.webmd.com/food-recipes/health-benefits-oranges">Health Facts</a></p>
+<p><a class="navlinks" href="https://www.google.com/search?q=orange+solid+color&safe=strict&sxsrf=ALeKk007TMG57J5-AyFCDCBek9ZIMYC1GQ:1615468484962&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj7jcSJqajvAhXHF1kFHa4gAqUQ_AUoAnoECBUQBA&biw=1920&bih=1007">Color Orange</a></p>
+</nav> 
+
+<section>
+
+<article>
+<h1>Our Mission</h1>
+<img class="floatright" id="img-rotate" src="media/orange_fruit.png" height="114" alt="Orange"/>
+To make you love the color orange and the fruit orange by learnign "useful" facts about oranges.
+
+</article> 
+
+<article>
+<h1>Orange info</h1>
+<video class="floatright" id="video-rotate" height="150" controls="controls">
+<source src="media/habitat_video_Web_720.mp4" type="video/mp4" />
+Your browser does not support the HTML5 video element.
+</video>
+Were oranges named after the color orange or did the fruit name the color? Important questions to think about when eating an orange. Did the person that named the orange get lazy and grabed a color name or did he name the color after the fruit so people didnt get confused? Another important question.
+
+</article>
+
+<article>
+<h1>Take action</h1>
+Dont look here its not finished!!!!
+
+
+
+<p>
+<audio controls="controls">
+<source src="" type="audio/mpeg" /> 
+Your browser does not support the HTML5 audio element. 
+</audio>
+</p>
+</article>
+
+</section> 
+
+
+
+<footer>
+<a href="">Not finished</a> | 
+<a href="">Not finished</a> | 
+<a href="">Not finished</a> | 
+<a href="">Not finished</a><br/>
+<p>Just a normal Orange</p>
+</footer>
+
+</body>
+</html>

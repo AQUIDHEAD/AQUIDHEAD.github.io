@@ -1,0 +1,48 @@
+body {
+    background-color: #FFE4C4;
+    margin: 40px;
+}
+section {
+    background-color: #FFF8DC;
+    padding: 20px;
+}
+h1, footer {
+    text-align: center;
+}
+footer {
+    margin-top: 20px;
+}
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+b {
+    color: #800000;
+}   
+strong {
+    color: #D2691E;
+}
+em {
+    color: #367700;
+}
+i {
+    color: #5400a3;
+}
+code {
+    color: #9eca00;
+}
+kbd {
+    color: #8ce400;
+}
+sup {
+    color: #0089c9;
+}
+sub {
+    color: #ff0000;
+}
+q {
+    color: #00cc44;
+}
+span {
+    color: #ff8800;
+}

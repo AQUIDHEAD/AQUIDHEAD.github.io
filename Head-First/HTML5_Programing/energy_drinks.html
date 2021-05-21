@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<script>
+var drink = "Energy Drink";
+var lyrics = "";
+var cans = 99;
+while (cans > 0) {
+    lyrics = lyrics + cans + " cans of "
+    + drink + " on the wall <br>";
+    lyrics = lyrics + cans + " cans of "
+    + drink + "<br>";
+    lyrics = lyrics + "Take one down, pass it around,<br>";
+    if (cans > 1) {
+    lyrics = lyrics + (cans-1) + " cans of "
+    + drink + " on the wall <br>";
+}
+else {
+    lyrics = lyrics + "No more cans of "
+    + drink + " on the wall <br>";
+}
+cans = cans - 1;
+}
+document.write(lyrics);
+</script>
+<style>
+footer {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<footer>
+<a href="http://validator.w3.org/check/referer">
+<strong> HTML </strong> Valid! </a> &nbsp;
+<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
