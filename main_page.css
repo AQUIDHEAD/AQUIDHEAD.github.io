@@ -1,13 +1,13 @@
 body {
    margin: 1%;
    padding: 1%;
-   background-color: #1e1d24;
+   background-color: #0c0c0c;
 }
 h1 {
   text-align: center;
   padding-left: 1%;
   color: #fc2929;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 h2 {
   color: #ff0000;
@@ -19,7 +19,7 @@ p {
   text-align: center;
   padding-left: 1%;
   color: #ececec;
-  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 main {
@@ -65,7 +65,7 @@ a:hover {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #151620;
+  background-color: #1a1a1a;
   overflow-x: hidden;
   padding: 2%;
 }
@@ -97,8 +97,8 @@ a:hover {
   flex: 0 0 32%;
   height: 2%;
   margin-bottom: 1%;
-  background-color: #292c3a; 
-  border: solid #292c3a;
+  background-color: #2b2b2b; 
+  border: solid #3b3b3b;
   border-radius: 1em;
 }
 
